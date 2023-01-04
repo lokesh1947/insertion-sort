@@ -2,8 +2,7 @@ import java.util.*;
 import java.lang.*;
 class insertionsort
 {
-	public static void sort(int []a,int l)
-	{
+	public static void sort(int []a,int l){
 		for(int i=1;i<l;i++)
 		{
 			int temp=a[i];
@@ -16,8 +15,7 @@ class insertionsort
 			a[j+1]=temp;  
 		}
 	}
-	public static void main(String args[])
-	{
+	public static void main(String args[]){
 		int a[]={5,4,10,1,6,2};
 		int l=a.length;
 		sort(a,l);
